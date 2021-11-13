@@ -205,7 +205,7 @@ lookup(Host) ->
 	{ok, IP} ->
 	    {ok, [{IP, get_addr_type(IP)}]};
 	{error, _} ->
-	    do_lookup([{Host, Family} || Family <- [inet6, inet]],
+	    do_lookup([{Host, Family} || Family <- [inet, inet6]],
 		      [], {error, nxdomain})
     end.
 
