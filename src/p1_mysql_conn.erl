@@ -815,6 +815,7 @@ get_field_datatype(11) ->  'TIME';
 get_field_datatype(12) ->  'DATETIME';
 get_field_datatype(13) ->  'YEAR';
 get_field_datatype(14) ->  'NEWDATE';
+get_field_datatype(15) ->  'VARCHAR';
 get_field_datatype(16) ->  'BIT';
 get_field_datatype(246) -> 'DECIMAL';
 get_field_datatype(247) -> 'ENUM';
